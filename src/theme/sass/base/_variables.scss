@@ -1,0 +1,50 @@
+// Colors
+$primary: #5dffd3; //#d7ffff; //#6C63FF;#ffe6d5
+$secondary: #6c63f6; //#d7ffff; //#4641FF;
+$tertiary: #f3ff5d;
+$accent: #ff6347; //#06d19c;
+$accent-secondary: #3c94f2;
+$primary-dark: darken($primary,8%);
+$text-dark: #333C44;
+$text-light: #fff;
+$text: $text-dark;
+$background: #ffffff;
+$background-alt: $primary;
+$background-dark: #333C44;
+$line: #eee;
+$success: $accent;
+$error: tomato;
+
+// Typography
+$font: 'Poppins', sans-serif;
+$font-size: 15px;
+$line-height: 1.7;
+$light: 300;
+$normal: 400;
+$bold: 600;
+
+// Other variables
+$radius: 30px;
+
+// Containers
+$containerWidth: 88%; // Percentage of screen width
+$containerMax: 1080px; // Largest fixed width
+$text-container: 640px; // Limit texts for readability
+
+// Media queries
+$tablet-width: 600px !default; // Tablets
+$desktop-width: 992px !default; // Desktops & Laptops
+$huge-width: 1400px !default; // Large Desktops
+
+/* Components */
+
+// Navigation bar
+$navbar-height: 60px; // Height for navigation globally
+$navbar-height-extended: 70px; // Extended height for navigation => Used on landing
+
+// Hero
+$hero-color: $text-dark;
+$hero-shadow: 0;//0 4px 11px rgba(124,146,169,0.5);
+$hero-color-opacity: 0.96;
+$hero-mask-opacity: 0.66;
+$hero-down-size: 1rem; 

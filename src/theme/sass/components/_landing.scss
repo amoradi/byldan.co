@@ -1,0 +1,18 @@
+.landing__section{
+  padding: 24pt 0;
+  background-color: $secondary;
+  color: $text-light;
+
+  h2 {
+    color: $text-light;
+  }
+}
+
+.landing__section:nth-child(even){
+  background-color: $primary;
+  color: $text-dark;
+
+  h2 {
+    color: $text-dark;
+  }
+}

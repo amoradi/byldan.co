@@ -1,0 +1,39 @@
+.cta {
+	background: $primary;
+	color: $text-dark;;
+	padding: 48pt 0;
+	text-align: center;
+}
+
+.cta--reverse{
+  background: $secondary;
+  color: $text-dark;
+}
+
+.cta--plain{
+	background: $primary;
+}
+
+.cta--secondary{
+  background: $secondary;
+  color: $text-light;
+}
+
+.cta--tertiary{
+	background: $tertiary;
+}
+
+.cta__title{
+	color: inherit;
+}
+
+.cta__sub{
+	opacity: 0.85;
+	max-width: 58ch;
+	margin: 16pt auto 24pt auto;
+	
+
+	&--center{
+		text-align: center;
+	}
+}
