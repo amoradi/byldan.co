@@ -62,5 +62,7 @@
 }
 
 .expanded__text{
-	max-width: 60ch;
+  max-width: 60ch;
+  padding: 0;
+  list-style-position: inside;
 }

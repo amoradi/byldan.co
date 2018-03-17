@@ -1055,7 +1055,9 @@ select {
   max-width: 550px; }
 
 .expanded__text {
-  max-width: 60ch; }
+  max-width: 60ch;
+  padding: 0;
+  list-style-position: inside; }
 
 .cta {
   background: #5dffd3;
@@ -1075,7 +1077,7 @@ select {
   color: #fff; }
 
 .cta--tertiary {
-  background: #f3ff5d; }
+  background: #fff; }
 
 .cta__title {
   color: inherit; }
