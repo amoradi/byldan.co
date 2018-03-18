@@ -884,9 +884,11 @@ select {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 0.96;
+  opacity: 0.1;
   z-index: 1;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  background-image: url(/images/store-small-min2.jpeg);
+  background-size: cover; }
 
 .hero__mask {
   position: absolute;
@@ -914,12 +916,11 @@ select {
 /*--- CONTENT STYLING ---*/
 .hero__title {
   color: inherit;
-  margin-bottom: 1.25em; }
+  margin-bottom: 1 rem; }
 
 .hero__text {
   opacity: 0.85;
   line-height: 1.7;
-  text-align: left;
   font-size: 1.1em; }
 
 .hero .button {
@@ -1091,7 +1092,7 @@ select {
 
 .footer {
   background-color: #ffffff;
-  padding: 36pt 0; }
+  padding: 56pt 0; }
 
 .footer__inner {
   display: flex;
@@ -1153,7 +1154,8 @@ select {
 .footer--dark {
   background-color: #333C44; }
   .footer--dark .footer__textLogo {
-    color: #fff; }
+    color: #fff;
+    font-size: 15px; }
   .footer--dark .footer__inner {
     color: #d9d9d9; }
   .footer--dark .footer__link {

@@ -1,6 +1,6 @@
 .footer{
 	background-color: $background;
-	padding: 36pt 0;
+	padding: 56pt 0;
 }
 
 .footer__inner{
@@ -77,7 +77,8 @@
 	background-color: $background-dark;
 
 	.footer__textLogo{
-		color: #fff;
+    color: #fff;
+    font-size: $font-size;
 	}
 	
 	.footer__inner{

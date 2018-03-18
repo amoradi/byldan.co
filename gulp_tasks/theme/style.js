@@ -17,5 +17,5 @@ gulp.task('theme_style', function() {
 	.pipe(gulp.dest('Evie/css'))
 	.pipe(postcss(plugins))
 	.pipe(rename({ extname: '.min.css' }))
-	.pipe(gulp.dest('Evie/css'))
+	.pipe(gulp.dest('public/css'))
 });

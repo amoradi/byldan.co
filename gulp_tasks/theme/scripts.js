@@ -17,5 +17,5 @@ gulp.task('theme_scripts', function(){
 	.pipe(gulp.dest('Evie/js'))
 	.pipe(uglify())
 	.pipe(rename({ extname: '.min.js' }))
-	.pipe(gulp.dest('Evie/js'))
+	.pipe(gulp.dest('public/js'))
 });

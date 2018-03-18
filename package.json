@@ -4,7 +4,8 @@
   "description": "A design system & template to build modern applications that work everywhere",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "release": "release"
   },
   "repository": {
     "type": "git",
