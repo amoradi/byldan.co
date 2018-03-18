@@ -1,6 +1,10 @@
 byldan
 ====
 
+build /public
+```
+node ./node_modules/gulp/bin/gulp.js build
+```
 
 Usage
 -----
