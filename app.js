@@ -33,7 +33,4 @@ app.get('/auth', (req,res) => res.render('auth')); // Authentication page
 app.get('/page', (req,res) => res.render('page')); // Plain page
 app.get('/dashboard', (req,res) => res.render('dashboard')); // Dashboard page
 
-
-
-
-app.listen(3000, () => console.log('Evie app listening on port 3000')); // Initialize the express server
+app.listen(process.env.PORT || 3000, () => console.log('Evie app listening on port 3000')); // Initialize the express server
