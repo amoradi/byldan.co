@@ -4,6 +4,7 @@
   "description": "A design system & template to build modern applications that work everywhere",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "test"
   },
   "repository": {
