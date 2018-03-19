@@ -95,6 +95,10 @@
 	}
 }
 
+.js-nav-active .navbar--extended{
+	background-color: $background;
+}
+
 /*! responsive-nav.js 1.0.39 by @viljamis */
 
 .nav__mobile ul {
